@@ -1,5 +1,6 @@
 public with sharing class InsertionMirketa {
     public static void InsertionMirketaHandler(List<Developer__c> l1) {
+       // Map<String, Schema.SObjectType> devMap = Schema.getGlobalDescribe();
         List<String> devList = new List<String>();
         devList.add('Developer__c');
 

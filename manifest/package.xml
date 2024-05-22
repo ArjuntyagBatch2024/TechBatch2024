@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-<types>
-<members>*</members>
-<name>CustomObject</name>
-</types>
 	<types>
 		<members>*</members>
 		<name>ApexClass</name>
@@ -29,12 +25,87 @@
 		<name>AuraDefinitionBundle</name>
 	</types>
 	<types>
+		<members>Account.Active__c</members>
+		<members>Account.CustomerPriority__c</members>
+		<members>Account.Geo__c</members>
+		<members>Account.NumberofLocations__c</members>
+		<members>Account.SLAExpirationDate__c</members>
+		<members>Account.SLASerialNumber__c</members>
+		<members>Account.SLA__c</members>
+		<members>Account.Total_Opportunity_Amount__c</members>
+		<members>Account.UpsellOpportunity__c</members>
+		<members>Activity.DB_Activity_Type__c</members>
+		<members>Campaign.DB_Campaign_Tactic__c</members>
+		<members>Candidate__c.Email__c</members>
+		<members>Candidate__c.Name__c</members>
+		<members>Candidate__c.Phone__c</members>
+		<members>Case.EngineeringReqNumber__c</members>
+		<members>Case.PotentialLiability__c</members>
+		<members>Case.Product__c</members>
+		<members>Case.SLAViolation__c</members>
+		<members>Contact.Languages__c</members>
+		<members>Contact.Level__c</members>
+		<members>Developer__c.Age__c</members>
+		<members>Developer__c.Country__c</members>
+		<members>Developer__c.Designation__c</members>
+		<members>Developer__c.Organization__c</members>
+		<members>Developer__c.Salary__c</members>
+		<members>Developer__c.State__c</members>
+		<members>Employee__c.College__c</members>
+		<members>Employee__c.DOB__c</members>
+		<members>Employee__c.Developer__c</members>
+		<members>Employee__c.NickName__c</members>
+		<members>Employee__c.Organisation__c</members>
+		<members>Employee__c.Salary__c</members>
+		<members>GIT_Object__c.GitFormulaField__c</members>
+		<members>GIT_Object__c.Status__c</members>
+		<members>Goal.OrigGoalId__c</members>
+		<members>Hier_Custom_Setting__c.Email__c</members>
+		<members>Hier_Custom_Setting__c.Net_Worth__c</members>
+		<members>Hier_Custom_Setting__c.isActive__c</members>
+		<members>Lead.CurrentGenerators__c</members>
+		<members>Lead.DB_Created_Date_without_Time__c</members>
+		<members>Lead.DB_Lead_Age__c</members>
+		<members>Lead.NumberofLocations__c</members>
+		<members>Lead.Primary__c</members>
+		<members>Lead.ProductInterest__c</members>
+		<members>Lead.SICCode__c</members>
+		<members>ListCustomSetting__c.City__c</members>
+		<members>ListCustomSetting__c.Phone__c</members>
+		<members>Manager__c.Department__c</members>
+		<members>Marks__c.Score__c</members>
+		<members>Marks__c.Student__c</members>
+		<members>Metric.OrigMetricId__c</members>
+		<members>New_Case__e.Origin__c</members>
+		<members>New_Case__e.Status__c</members>
+		<members>New_Product_Entry__e.Product_Category__c</members>
+		<members>New_Product_Entry__e.Product_ID__c</members>
+		<members>New_Product_Entry__e.Product_Name__c</members>
+		<members>New_Product_Entry__e.Product_Price__c</members>
+		<members>Opportunity.CurrentGenerators__c</members>
+		<members>Opportunity.DB_Competitor__c</members>
+		<members>Opportunity.DeliveryInstallationStatus__c</members>
+		<members>Opportunity.MainCompetitors__c</members>
+		<members>Opportunity.OrderNumber__c</members>
+		<members>Opportunity.TrackingNumber__c</members>
+		<members>Product2.Product_Price__c</members>
+		<members>Students__c.Classroom__c</members>
+		<members>User.DB_Region__c</members>
+		<members>Work_Location__c.Developer__c</members>
+		<members>Worker__c.Worker_id__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
 		<members>*</members>
 		<name>CustomMetadata</name>
 	</types>
 	<types>
 		<members>*</members>
 		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>Flow</name>
 	</types>
 	<types>
 		<members>*</members>
