@@ -61,12 +61,12 @@ public with sharing class TotalAccountAmountHandler {
 
         if(aggList.size() == 0)
         {
-            for(Id accId : ParentId)
+            for(Id acc : ParentId)
             {
-                Account acc = new Account();
-                acc.id = accId;
-                acc.Total_Opportunity_Amount__c = 0;
-                mp.put(acc.id, acc);    
+                Account accn = new Account();
+                accn.id = acc;
+                accn.Total_Opportunity_Amount__c = 0;
+                mp.put(accn.id, accn);
             }
 
         }

@@ -1,4 +1,4 @@
 <aura:component>
 <lightning:input label = "Name" value = "{!v.Name}" type="text"></lightning:input>
 <lightning:input label = "Age" value = "{!v.age}" type="Integer"></lightning:input>
-</aura:component>	
+</aura:component>
